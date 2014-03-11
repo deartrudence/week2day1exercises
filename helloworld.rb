@@ -2,7 +2,10 @@ require 'sinatra'
 require 'rubygems'
 
 get '/' do
-  "<h1 id='unique'>Heading</h1>
+  "<style>
+  		p {color: blue;}
+   </style>
+  <h1 id='unique'>Heading</h1>
   <p>Hello World!</p>
   <ol>
   <li>Trudy</li>
